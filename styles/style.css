@@ -6,8 +6,8 @@ body {
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1); */
-
-    /* --color1: hsla(45, 86%, 83%, 1);
+/* 
+    --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
@@ -111,3 +111,22 @@ footer {
     }
 
   }
+
+  .animals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     }
+     img {
+         cursor: pointer;
+         transitions: all .2 ease-in;
+     }
+     img {
+         transform: rotate();
+     }
+
+     .who-did-that {
+         font-size: 5rem;
+     }
